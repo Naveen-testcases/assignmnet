@@ -50,3 +50,4 @@ print("Given names as Json",names)
 #comparing is diven data with caputred data
 if capured_names == names:
     print("assertion paased")
+driver.quit()
