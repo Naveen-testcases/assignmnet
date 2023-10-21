@@ -48,6 +48,7 @@ names = [item['name'] for item in data_list] #extrating only names in  given jso
 print("Given names as Json",names)
 
 #comparing is diven data with caputred data
+#or we can use assert captured_names = names it is false assertion will faile
 if capured_names == names:
     print("assertion paased")
 driver.quit()
